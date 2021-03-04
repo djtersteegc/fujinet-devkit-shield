@@ -13,7 +13,7 @@ An interactive BOM and parts placement diagram is also available.
 
 [Interactive Bill of Materials (BOM)](https://djtersteegc.github.io/fujinet-devkit-shield/ibom.html)
 
-Currently this board is not supported by the FujiNet updater app so you will need to use Platform IO to build and upload your own binaries.  Build with the 8MB flash target (TBD, send pull request with new build target and partition map) since the devkit boards have half the flash of the 16MB WROVER modules used on the SIO mounted FujiNet designed by [mozzwald](https://github.com/mozzwald).  In normal operation is should not really matter since 6MB in the 16MB version is currently reserved for over the air (OTA) updates.  The release build uses a little more than 2MB of flash as of March 2021 so lots of free space still for future development.
+Currently this board is not supported by the FujiNet updater app so you will need to use Platform IO to build and upload your own binaries.  Build with the 8MB flash target (TBD, send pull request with new build target and partition map) since the devkit boards have half the flash of the 16MB WROVER modules used on the SIO mounted FujiNet designed by [mozzwald](https://github.com/mozzwald).  In normal operation is should not really matter since 6MB in the 16MB version is currently reserved for over the air (OTA) updates and the release build uses a little more than 2MB of flash as of March 2021 so lots of free space still for future development.
 
 [Board bring up for FujiNet Platform.IO code](https://github.com/FujiNetWIFI/fujinet-platformio/wiki/Board-bring-up-for-FujiNet-Platform.IO-code)
 
@@ -27,4 +27,4 @@ Otherwise you can download the Gerbers and use your favorite fab (JLCPCB, PCBWay
 
 ### Version 1.0
 
-Mostly tested. Standard pin header cable with the SMD MicroSD card connector works.  Still waiting for DB15 connectors to test that cable configuration and a 4.7uf ceramic cap for audio in line. Will also build that one with the micro SD breakout board to verify.  External pin headers for the buttons and LED's are also untested, but should work. Equivalent to version 1.3+ (pull-up resistors on the SIO and SD card lines) of the SIO port mounted FujiNet.
+Mostly tested. Standard pin header cable with the SMD MicroSD card connector works.  Still waiting for DB15 connectors to test that cable configuration and a 4.7uf ceramic cap for audio in line. Will also build that one with the micro SD breakout board to verify.  External pin headers for the buttons and LEDs are also untested, but should work. Equivalent to version 1.3+ (pull-up resistors on the SIO and SD card lines) of the SIO port mounted FujiNet.
