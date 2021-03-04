@@ -30,7 +30,7 @@ You can also buy prewired 12p [XH2.54 cables](https://www.aliexpress.com/item/10
 
 When wiring J1 skip pin 12 (the +12V line on old 400/800's) from the SIO connector and wire SIO pin 13 to pin 12 on J1.  When using J10 wire pin for pin, but pin 12 is not connected on the PCB so you don't really need to wire it.
 
-For the SIO plug on the Atari side, I've had great luck using this 3D printed model, https://www.thingiverse.com/thing:2883606/files, and KK 396 style crimp connectors.
+For the SIO plug on the Atari side, I've had great luck using this 3D printed model, [https://www.thingiverse.com/thing:2883606/files](https://www.thingiverse.com/thing:2883606/files), and KK 396 style crimp connectors.
 
 ### Bulk Capacitors
 
@@ -42,7 +42,7 @@ Either 1/4W or 1/8W can be used in all locations except the pull-ups on the SD c
 
 R1, R2, and R3 control the LED brightness. The values listed are the same as the SIO mounted Fujinet, but you may want to pick other values if using different LED's with different [Vf](https://electronics.stackexchange.com/questions/173468/easy-way-to-figure-out-a-leds-vf-in-order-to-pick-an-appropriate-resistor) values or prefer brighter or dimmer LEDs.  I generally shoot for around 1ma to 2ma of current on a standard 20ma LED depending on color.  Remember, these are being driven by 3.3V, not the normal 5V you may see on an AVR Arduino project.  A good calculator is at:
 
-http://ledcalc.com/
+[http://ledcalc.com/](http://ledcalc.com/)
 
 R14 and R15 are optional.  They form a voltage divider than is only used these days to show SIO voltage in the FujiNet web interface.
 
