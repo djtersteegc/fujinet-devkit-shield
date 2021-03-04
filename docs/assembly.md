@@ -22,11 +22,11 @@ Yes, the first option is SMD and not THT, but it's pretty easy to solder and giv
 
 You can use either J1 to mount any standard 12 position (12p) 2.54mm type header connector or use J10 to mount a female DB15 connector. If you want something keyed to prevent reverse insertion I would recommend right angle [XH2.54 style connectors](https://www.aliexpress.com/item/32823261625.html).
 
-<img src="/xh-2.54-connector.jpg" alt="xh-2.54-connector" style="zoom:33%;" />
+<img src="xh-2.54-connector.jpg" alt="xh-2.54-connector" style="zoom:33%;" />
 
 You can also buy prewired 12p [XH2.54 cables](https://www.aliexpress.com/item/1005001463221962.html) if you don't want to crimp your own.
 
-<img src="/xh-2.54-cable.jpg" alt="xh-2.54-cable" style="zoom: 33%;" />
+<img src="xh-2.54-cable.jpg" alt="xh-2.54-cable" style="zoom: 33%;" />
 
 When wiring J1 skip pin 12 (the +12V line on old 400/800's) from the SIO connector and wire SIO pin 13 to pin 12 on J1.  When using J10 wire pin for pin, but pin 12 is not connected on the PCB so you don't really need to wire it.
 
