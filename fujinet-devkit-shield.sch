@@ -90,6 +90,7 @@ F 0 "R1" V 3293 5550 50  0000 C CNN
 F 1 "1K" V 3384 5550 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3430 5550 50  0001 C CNN
 F 3 "~" H 3500 5550 50  0001 C CNN
+F 4 "For WiFi LED" V 3500 5550 50  0001 C CNN "Comment"
 	1    3500 5550
 	0    1    1    0   
 $EndComp
@@ -101,6 +102,7 @@ F 0 "R2" V 3343 6250 50  0000 C CNN
 F 1 "1.2K" V 3434 6250 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 6250 50  0001 C CNN
 F 3 "~" H 3550 6250 50  0001 C CNN
+F 4 "For SIO LED" V 3550 6250 50  0001 C CNN "Comment"
 	1    3550 6250
 	0    1    1    0   
 $EndComp
@@ -112,6 +114,7 @@ F 0 "R3" V 3343 6950 50  0000 C CNN
 F 1 "1K" V 3434 6950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 6950 50  0001 C CNN
 F 3 "~" H 3550 6950 50  0001 C CNN
+F 4 "For bluetooth LED" V 3550 6950 50  0001 C CNN "Comment"
 	1    3550 6950
 	0    1    1    0   
 $EndComp
@@ -213,6 +216,7 @@ F 0 "J1" H 868 875 50  0000 C CNN
 F 1 "SIO (No 12V)" H 868 966 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 950 1700 50  0001 C CNN
 F 3 "~" H 950 1700 50  0001 C CNN
+F 4 "No Pin 12, Pin 13 SIO = Pin 12 on header" H 950 1700 50  0001 C CNN "Comment"
 	1    950  1700
 	-1   0    0    1   
 $EndComp
@@ -257,6 +261,7 @@ F 0 "R10" H 7980 4604 50  0000 R CNN
 F 1 "10K" H 7980 4695 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7980 4650 50  0001 C CNN
 F 3 "~" H 8050 4650 50  0001 C CNN
+F 4 "Optional, pull-up when using SMD SD connector" H 8050 4650 50  0001 C CNN "Comment"
 	1    8050 4650
 	-1   0    0    1   
 $EndComp
@@ -268,6 +273,7 @@ F 0 "R11" H 8280 4604 50  0000 R CNN
 F 1 "10K" H 8280 4695 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8280 4650 50  0001 C CNN
 F 3 "~" H 8350 4650 50  0001 C CNN
+F 4 "Optional, pull-up when using SMD SD connector" H 8350 4650 50  0001 C CNN "Comment"
 	1    8350 4650
 	-1   0    0    1   
 $EndComp
@@ -279,6 +285,7 @@ F 0 "R12" H 8580 4604 50  0000 R CNN
 F 1 "10K" H 8580 4695 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8580 4650 50  0001 C CNN
 F 3 "~" H 8650 4650 50  0001 C CNN
+F 4 "Optional, pull-up when using SMD SD connector" H 8650 4650 50  0001 C CNN "Comment"
 	1    8650 4650
 	-1   0    0    1   
 $EndComp
@@ -290,6 +297,7 @@ F 0 "R13" H 8880 4604 50  0000 R CNN
 F 1 "10K" H 8880 4695 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8880 4650 50  0001 C CNN
 F 3 "~" H 8950 4650 50  0001 C CNN
+F 4 "Optional, pull-up when using SMD SD connector" H 8950 4650 50  0001 C CNN "Comment"
 	1    8950 4650
 	-1   0    0    1   
 $EndComp
@@ -301,6 +309,7 @@ F 0 "J3" H 10230 3542 50  0000 L CNN
 F 1 "SD BOARD" H 10230 3451 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10150 3550 50  0001 C CNN
 F 3 "~" H 10150 3550 50  0001 C CNN
+F 4 "For Aliexpress MicroSD module if not using SMD footprint" H 10150 3550 50  0001 C CNN "Comment"
 	1    10150 3550
 	1    0    0    -1  
 $EndComp
@@ -662,6 +671,7 @@ F 0 "R14" H 9480 2354 50  0000 R CNN
 F 1 "2K" H 9480 2445 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9480 2400 50  0001 C CNN
 F 3 "~" H 9550 2400 50  0001 C CNN
+F 4 "Optional, only used to show SIO voltage in web UI" H 9550 2400 50  0001 C CNN "Comment"
 	1    9550 2400
 	-1   0    0    1   
 $EndComp
@@ -673,6 +683,7 @@ F 0 "R15" H 9480 2654 50  0000 R CNN
 F 1 "3.9K" H 9480 2745 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9480 2700 50  0001 C CNN
 F 3 "~" H 9550 2700 50  0001 C CNN
+F 4 "Optional, only used to show SIO voltage in web UI" H 9550 2700 50  0001 C CNN "Comment"
 	1    9550 2700
 	-1   0    0    1   
 $EndComp
@@ -952,7 +963,7 @@ L Mechanical:MountingHole H1
 U 1 1 6039E0F0
 P 6150 6900
 F 0 "H1" H 6250 6946 50  0000 L CNN
-F 1 "MountingHole" H 6250 6855 50  0000 L CNN
+F 1 "M3 Mounting Hole" H 6250 6855 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6150 6900 50  0001 C CNN
 F 3 "~" H 6150 6900 50  0001 C CNN
 	1    6150 6900
@@ -963,7 +974,7 @@ L Mechanical:MountingHole H2
 U 1 1 6039E9FF
 P 6150 7100
 F 0 "H2" H 6250 7146 50  0000 L CNN
-F 1 "MountingHole" H 6250 7055 50  0000 L CNN
+F 1 "M3 Mounting Hole" H 6250 7055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6150 7100 50  0001 C CNN
 F 3 "~" H 6150 7100 50  0001 C CNN
 	1    6150 7100
@@ -974,7 +985,7 @@ L Mechanical:MountingHole H3
 U 1 1 603A0284
 P 6150 7300
 F 0 "H3" H 6250 7346 50  0000 L CNN
-F 1 "MountingHole" H 6250 7255 50  0000 L CNN
+F 1 "M3 Mounting Hole" H 6250 7255 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6150 7300 50  0001 C CNN
 F 3 "~" H 6150 7300 50  0001 C CNN
 	1    6150 7300
@@ -985,7 +996,7 @@ L Mechanical:MountingHole H4
 U 1 1 603A0A21
 P 6150 7500
 F 0 "H4" H 6250 7546 50  0000 L CNN
-F 1 "MountingHole" H 6250 7455 50  0000 L CNN
+F 1 "M3 Mounting Hole" H 6250 7455 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6150 7500 50  0001 C CNN
 F 3 "~" H 6150 7500 50  0001 C CNN
 	1    6150 7500
@@ -1011,6 +1022,7 @@ F 0 "J2" V 5872 4380 50  0000 L CNN
 F 1 "Conn_BUTTON_A" V 5963 4380 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 4300 50  0001 C CNN
 F 3 "~" H 6000 4300 50  0001 C CNN
+F 4 "Optional, Button A header" V 6000 4300 50  0001 C CNN "Comment"
 	1    6000 4300
 	0    1    1    0   
 $EndComp
@@ -1022,6 +1034,7 @@ F 0 "J4" V 5872 5080 50  0000 L CNN
 F 1 "Conn_BUTTON_B" V 5963 5080 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 5000 50  0001 C CNN
 F 3 "~" H 6000 5000 50  0001 C CNN
+F 4 "Optional, Button B header" V 6000 5000 50  0001 C CNN "Comment"
 	1    6000 5000
 	0    1    1    0   
 $EndComp
@@ -1033,6 +1046,7 @@ F 0 "J5" V 5872 5830 50  0000 L CNN
 F 1 "Conn_BUTTON_RESET" V 5963 5830 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 5750 50  0001 C CNN
 F 3 "~" H 6000 5750 50  0001 C CNN
+F 4 "Optional, Reset button header" V 6000 5750 50  0001 C CNN "Comment"
 	1    6000 5750
 	0    1    1    0   
 $EndComp
@@ -1044,6 +1058,7 @@ F 0 "J6" V 3972 5980 50  0000 L CNN
 F 1 "Conn_WHITE_LED" V 4063 5980 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 5900 50  0001 C CNN
 F 3 "~" H 4100 5900 50  0001 C CNN
+F 4 "Optional, Wifi LED header" V 4100 5900 50  0001 C CNN "Comment"
 	1    4100 5900
 	0    1    1    0   
 $EndComp
@@ -1055,6 +1070,7 @@ F 0 "J7" V 3972 6680 50  0000 L CNN
 F 1 "Conn_ORANGE_LED" V 4063 6680 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 6600 50  0001 C CNN
 F 3 "~" H 4100 6600 50  0001 C CNN
+F 4 "Optional, SIO LED header" V 4100 6600 50  0001 C CNN "Comment"
 	1    4100 6600
 	0    1    1    0   
 $EndComp
@@ -1066,6 +1082,7 @@ F 0 "J8" V 3972 7380 50  0000 L CNN
 F 1 "Conn_BLUE_LED" V 4063 7380 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 7300 50  0001 C CNN
 F 3 "~" H 4100 7300 50  0001 C CNN
+F 4 "Optional, Bluetooth LED header" V 4100 7300 50  0001 C CNN "Comment"
 	1    4100 7300
 	0    1    1    0   
 $EndComp
@@ -1181,9 +1198,10 @@ L Device:CP1 C4
 U 1 1 605422F3
 P 8650 3550
 F 0 "C4" H 8765 3596 50  0000 L CNN
-F 1 "10uF 6.3V" H 8765 3505 50  0000 L CNN
+F 1 "10uF 10V" H 8765 3505 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P5.00mm" H 8650 3550 50  0001 C CNN
 F 3 "~" H 8650 3550 50  0001 C CNN
+F 4 "Optional, 3.3V bulk for SD card" H 8650 3550 50  0001 C CNN "Comment"
 	1    8650 3550
 	1    0    0    -1  
 $EndComp
@@ -1310,6 +1328,7 @@ F 0 "J10" H 1805 3602 50  0000 L CNN
 F 1 "DB15_Female_MountingHoles" H 1805 3511 50  0000 L CNN
 F 2 "Connector_Dsub:DSUB-15_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 1650 3600 50  0001 C CNN
 F 3 " ~" H 1650 3600 50  0001 C CNN
+F 4 "Do not connect Pin 12 in cable" H 1650 3600 50  0001 C CNN "Comment"
 	1    1650 3600
 	1    0    0    -1  
 $EndComp
@@ -1383,6 +1402,7 @@ F 0 "D4" H 1650 4933 50  0000 C CNN
 F 1 "1N5817" H 1650 5024 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1650 4975 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 1650 5150 50  0001 C CNN
+F 4 "1N5818 or 1N5819 also works" H 1650 5150 50  0001 C CNN "Comment"
 	1    1650 5150
 	-1   0    0    1   
 $EndComp
@@ -1411,6 +1431,7 @@ F 0 "C5" V 2002 5950 50  0000 C CNN
 F 1 "10uf 6.3V" V 1911 5950 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1750 5950 50  0001 C CNN
 F 3 "~" H 1750 5950 50  0001 C CNN
+F 4 "Optional, 5V bulk for board" V 1750 5950 50  0001 C CNN "Comment"
 	1    1750 5950
 	1    0    0    -1  
 $EndComp
