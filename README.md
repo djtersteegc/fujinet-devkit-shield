@@ -19,7 +19,9 @@ Currently this board is not supported by the FujiNet updater app so you will nee
 
 # Getting a Board
 
-If I have extra PCB's, they will be listed on Tindie (soon...).
+If I have extra PCB's, they will be listed on Tindie.
+
+[https://www.tindie.com/products/tersteeg/fujinet-devkit-shield/](https://www.tindie.com/products/tersteeg/fujinet-devkit-shield/)
 
 Otherwise you can download the Gerbers and use your favorite fab (JLCPCB, PCBWay, etc.) to make your own batch.  It's a standard two layer, 1oz copper board with dimensions of 99mm x 56mm so it squeaks under the 100mm x 100mm limit of the cheap Chinese fabs.
 
