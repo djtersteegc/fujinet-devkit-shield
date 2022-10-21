@@ -17,6 +17,14 @@ Currently this board is not supported by the FujiNet updater app so you will nee
 
 [Board bring up for FujiNet Platform.IO code](https://github.com/FujiNetWIFI/fujinet-platformio/wiki/Board-bring-up-for-FujiNet-Platform.IO-code)
 
+STL's and the [DesignSpark Mechanical](https://www.rs-online.com/designspark/mechanical-software) source file for a 3D printable enclosure are in the **enclosure** directory. Assemble with four M3x10mm screws. Make sure to print 3 copies of the button file.
+
+<img src="docs/designspark.jpg" alt="designspark" />
+
+
+
+<img src="docs/enclosure.jpg" alt="enclosure" />
+
 # Getting a Board
 
 If I have extra PCB's, they will be listed on Tindie.
