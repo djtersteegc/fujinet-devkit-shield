@@ -2511,6 +2511,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H5mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx (layer F.Cu) (tedit 5D84F0EF) (tstamp 6024279A)
@@ -2553,6 +2558,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H5mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx (layer F.Cu) (tedit 5D84F0EF) (tstamp 6023F60B)
@@ -2591,6 +2601,11 @@
     (pad 4 thru_hole circle (at 6.5 4.5 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 19 GND))
     (model ${KISYS3DMOD}/Button_Switch_THT.3dshapes/SW_TH_Tactile_Omron_B3F-10xx.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H5mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3158,9 +3173,19 @@
     (pad 1 thru_hole rect (at -12.7 -22.85) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask)
       (net 21 +3V3))
     (model C:/Users/cdter/Documents/Kicad/ESP32-DEVKITC-32D/ESP32-DEVKITC-32D.step
-      (offset (xyz 0 0 3))
+      (offset (xyz 0 0 12.8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
+    )
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x19_P2.54mm_Vertical.step
+      (offset (xyz -12.75 22.85 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x19_P2.54mm_Vertical.step
+      (offset (xyz 12.75 22.85 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
